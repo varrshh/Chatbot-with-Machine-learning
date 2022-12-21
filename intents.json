@@ -1,0 +1,54 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you","Hey","Hola", "Hello", "vanakam"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting with you, bye"],
+         "responses": ["See you!", "Bye,Have a nice day", "Bye! Come back again."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That was helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How could you help me?", "What can you do?", "What help do you provide?", "How are you helpful?", "What support is offered"],
+         "responses": ["I can guide you with the courses available in our college", "i can support you with the details of the courses present in our college"],
+         "context": [""]
+        },
+        {"tag": "courses_available",
+         "patterns": ["what are the courses available?", "available courses", "course details", "List of courses" ],
+         "responses": ["select a stream given:1.Animation and Design 2.Computer Application and IT 3.Engineering and Architecture 4.Management and Business Administration 5.Sciences" ],
+         "context": [""]
+        },
+        {"tag": "animation",
+         "patterns": ["animation and design", "Animation and Design" ],
+         "responses": ["Courses available:ME VLSI Design "],
+         "context": [""]
+        },
+        {"tag": "comp_application_IT",
+         "patterns": ["Computer Application and IT", "computer application", "IT", "it", "computer application and it" ],
+         "responses": ["courses available:1.BE Computer Science and Engineering 2.B.Tech Information Technology"],
+         "context": [""]
+        },
+        {"tag": "engineering_and_architecture",
+         "patterns": ["engineering and architecture"],
+         "responses": ["courses available:1.BE computer Science and Engineering 2.BE Electrical and Electronics Engineering"],
+         "context": [""]
+        },
+        {"tag": "engineering_and_architecture",
+         "patterns": ["engineering and architecture"],
+         "responses": ["courses available:1.BE computer Science and Engineering 2.BE Electrical and Electronics Engineering"],
+         "context": [""]
+        }
+
+   ]
+}
